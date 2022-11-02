@@ -1,5 +1,11 @@
 public class FirstClass {
+    private static String sayHello() {
+        String text = "Hello from FirstClass!";
+
+        return text;
+    }
     public static void main(String[]args){
-        System.out.println("Hello from FirstClass!");
+        String example = sayHello();
+        System.out.println(example);
     }
 }
