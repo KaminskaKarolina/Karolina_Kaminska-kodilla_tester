@@ -9,9 +9,7 @@ public class SimpleArray {
         String musicBand = musicBands[3];
         System.out.println(musicBands[3]);
         int numberOfElements = musicBands.length;
-        String numberOfElements2 = "Moja tablica zawiera 5 elementów";
-        System.out.println(numberOfElements);
-        System.out.println(numberOfElements2);
+        System.out.println("Moja tablica zawiera" + numberOfElements + "elementów");
 
     }
 }

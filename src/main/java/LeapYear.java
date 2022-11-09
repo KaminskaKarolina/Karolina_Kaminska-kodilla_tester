@@ -1,18 +1,15 @@
 public class LeapYear {
-    public static void main(String[]args){
-        int rok = 2024;
-        System.out.println(rok);
-
-        if (rok%4 == 0) {
-            System.out.println("Rok Przestepny");
-        } else if (rok%100 == 0) {
-            System.out.println("Rok przestepny");
+    public static void main(String[]args) {
+        int year = 2024;
+        if (year%4 == 0){
+            System.out.println("Leap year");
         }
-        else if (rok%400 == 0) {
-            System.out.println("Rok Przestepny");
-        }
-        else
-            System.out.println("Rok nie przestepny");
-    }
-    }
+        else if  (year % 100==0){
+            System.out.println("Not leap year");
 
+        }
+        else if (year% 400 == 0){
+            System.out.println("Leap year");
+        }
+    }
+}
