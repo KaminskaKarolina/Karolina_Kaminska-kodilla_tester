@@ -32,9 +32,9 @@ public class Notebook {
         if(this.yearOfProduction < 2000) {
             System.out.println("Not buy is too old");
         }else if (this.yearOfProduction < 2000 && this.price > 4000) {
-                System.out.println("Buy it!");
-            }else {
-                System.out.println("Wait to the better offer");
-            }
+            System.out.println("Buy it!");
+        }else {
+            System.out.println("Wait to the better offer");
         }
     }
+}
