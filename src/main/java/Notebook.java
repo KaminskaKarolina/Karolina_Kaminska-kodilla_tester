@@ -3,11 +3,15 @@ public class Notebook {
     int price;
 
     int yearOfProduction;
+    String color;
 
-    public Notebook(int weight, int price,int yearOfProduction) {
+
+
+    public Notebook(int weight, int price,int yearOfProduction,String color) {
         this.weight = weight;
         this.price = price;
         this.yearOfProduction = yearOfProduction;
+        this.color = color;
     }
 
     public void checkPrice() {
